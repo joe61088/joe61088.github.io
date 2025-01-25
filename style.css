@@ -1,0 +1,90 @@
+.large_box
+{
+    height: 300px;
+    width: 500px;
+    border: 3px black solid;
+    border-radius: 10px;
+    display: flex;
+    box-shadow: 5px 5px 10px 3px black;
+    
+}
+.L_Introduce
+{
+    /* width: 40%;   */
+    flex: 1;
+    border: 3px rgb(0, 17, 255) solid;
+    border-radius: 5px 0 0 5px;
+    background-color: rgb(0, 17, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 1px solid rgb(175, 175, 175);
+}
+/* flex 也能作為比例來使用 flex : 1 以及 flex : 2 代表著比例為1:2 */
+.R_Introduce
+{
+    /* width: 60%;  */
+    flex: 2;
+    border: 3px rgb(6, 11, 92) solid;
+    border-radius: 0 5px 5px 0;
+    background-color: rgb(6, 11, 92);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-left: 1px solid rgb(175, 175, 175);
+}
+.bacon
+{
+    height: 200px;
+    width: 200px;
+    border-radius:50%;
+    padding-right: 3px;
+}
+.name
+{
+    text-align: center;
+    /* display: flex;
+    flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+/* font-family調整字型 */
+h3, p
+{
+    /* background-color: aquamarine; */
+    color: aliceblue;
+    font-family: sans-serif;
+}
+.textbox
+{
+    margin-top: 50px;
+    width: 250px;
+    height: 80px;
+    /* background-color: aqua; */
+}
+a
+{
+    /* background-color: aqua; */
+    height: 60px;
+    width: 60px;
+    border-radius:50%;
+    cursor: pointer;
+}
+.my_coin
+{
+    /* background-color: rgb(241, 117, 117); */
+    width: 250px;
+    height: 70px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content:space-around; */
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+.icon
+{
+    height: 100%;
+    border-radius:50%;
+}
